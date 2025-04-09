@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://jet-set.dark-innovations.com';
 const API_KEY = process.env.NEXT_PUBLIC_API_KEY || '1901';
 
 const API = axios.create({
